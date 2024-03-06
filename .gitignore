@@ -5,7 +5,7 @@ Parallel_Computing_Basics-Practice_2-8_semester
 Testing/*
 *.cmake
 *.ninja
-CMakeLists.txt
+CMakeCache.txt
 ..*
 .cmake/*
 .ninja*
