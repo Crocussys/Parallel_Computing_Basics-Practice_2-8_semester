@@ -10,8 +10,7 @@ int main()
     double ans = 0;
     const int processor_count = thread::hardware_concurrency();
     for (int i = 0; i < n; i++){
-        // arr[i] = rand() % 10;
-        arr[i] = i;
+        arr[i] = rand() % 10;
     }
 #pragma omp parallel num_threads(processor_count) reduction(+:ans)
     {
